@@ -31,4 +31,7 @@ cacheinverse<- function(x,...)
     return(inverse)
   }
   
-  
+
+a <- makeMatrix(matrix(1:4, 2, 2))
+a$get()
+cacheinverse(a)
